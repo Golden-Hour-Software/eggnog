@@ -1,3 +1,5 @@
+// PlatformSettings.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include <string>
 
 std::string PlatformSlashF() {
@@ -7,6 +9,7 @@ std::string PlatformSlashF() {
         return "/";
     #endif
 }
+
 
 
 std::string platformSlash = PlatformSlashF();
