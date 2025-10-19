@@ -1,4 +1,5 @@
-// Note to self: Make sure all this code works on windows 7+ and linux
+// Main.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -49,4 +50,5 @@ int main() {
     loggerInit();
     secmd();
     return 0;
+
 }
