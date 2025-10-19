@@ -1,3 +1,5 @@
+// PosixColors.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include "PosixColors.h"
 
 const std::string POSIX_BLACK = "\033[1;30m";
