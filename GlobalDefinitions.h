@@ -1,3 +1,5 @@
+// GlobalDefinitions.h
+// Last modified by Golden Hour Software on October 19, 2025
 #include <string>
 #include <filesystem>
 #include <vector>
@@ -16,4 +18,5 @@ extern int MaV;
 extern bool IsCustomCommandRun;
 
 extern fs::path currentPath;
+
 extern fs::path currentPathcd;
