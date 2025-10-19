@@ -4,4 +4,3 @@
 
 
 extern std::string platformSlash;
-
