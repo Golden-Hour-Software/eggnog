@@ -1,3 +1,5 @@
+// GlobalCommands.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -20,4 +22,5 @@ int cmd_help()
 		std::cout << SystmCmdList_Eggnog[i] << ": " << HelpDescList_Eggnog[i] << "\n";
 	}
 	return 0;
+
 }
