@@ -1,3 +1,5 @@
+// Logger.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include <cstring>
 #include <iostream>
 #include <fstream>
@@ -65,3 +67,4 @@ int loggerInit() {
     loggerUpdate("-- EGGNOG LOGFILE " + CurrentDate() + " --");
     return 0;
 }
+
