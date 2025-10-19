@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -22,4 +21,5 @@ fs::path ChangeDirFix(const std::string ascmd) {
         // if we aren't cd'ing and we ran another command..
         return currentPath;
     }
+
 }
