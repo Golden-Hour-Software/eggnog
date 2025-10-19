@@ -1,3 +1,5 @@
+// GlobalDefinitions.cpp
+// Last modified by Golden Hour Software on October 19, 2025
 #include <iostream>
 #include <string>
 #include <filesystem>
@@ -19,4 +21,5 @@ namespace fs = std::filesystem;
 // bool DoNotOutputStart = false;
 bool IsCustomCommandRun = false;
 fs::path currentPath = fs::current_path();
+
 fs::path currentPathcd;
